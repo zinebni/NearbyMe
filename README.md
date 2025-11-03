@@ -25,19 +25,7 @@ L’application :
 4. Si trouvé, récupère sa localisation et **calcule la distance** entre lui et les autres utilisateurs du même pays.
 5. Filtre et affiche les **personnes à proximité**, selon une **distance maximale (km)** configurable.
 
----
 
-## 🏗️ Architecture du projet
-
-src/
-├── app/
-│ ├── app.component.ts # Composant principal (logique RxJS et calculs)
-│ ├── app.html # Template HTML principal (UI & affichage)
-│ ├── app.css # Styles et animations
-│ └── user-service.ts # Service pour récupérer les utilisateurs depuis l’API
-├── assets/
-│ └── ...
-└── index.html
 ---
 
 ## ⚙️ Fonctionnalités principales
