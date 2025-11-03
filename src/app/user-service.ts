@@ -8,6 +8,7 @@ export class UserService {
 
   constructor(private http: HttpClient) {}
 
+  //getUsers est une méthode qui retourne un Observable rjx qui contient la réponse de l'api randomuser.me
   getUsers(): Observable<any[]> {
     return this.http.get<any>(this.apiUrl).pipe(map(res => res.results));
   }

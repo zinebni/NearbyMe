@@ -40,7 +40,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(135deg, #5c6c90 0%, #b2b7c0 50%, #334776 100%);
+  background: linear-gradient(135deg, #4a7aec 0%, #97bbff 50%, #334776 100%);
   overflow: hidden;
 }
 
@@ -206,7 +206,7 @@ body {
 }
 
 .username {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
   font-size: 0.875rem;
   margin-bottom: 1rem;
 }
@@ -233,7 +233,7 @@ body {
 
 .country {
   font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
 }
 
 .profile-stats {
@@ -259,7 +259,7 @@ body {
 
 .stat-label {
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -271,7 +271,7 @@ body {
 .error-message {
   text-align: center;
   padding: 2rem;
-  background: rgba(51, 65, 85, 0.3);
+  background: rgba(47, 62, 85, 0.941);
   border-radius: 16px;
   border: 2px dashed var(--border);
 }
@@ -284,17 +284,19 @@ body {
 }
 
 .empty-icon {
-  font-size: 3rem;
+  font-size: 2cap;
 }
 
 .error-message {
-  background: rgba(239, 68, 68, 0.1);
-  border-color: rgba(239, 68, 68, 0.3);
+  background: rgba(220, 69, 69, 0.842);
+  border-color: rgb(210, 15, 15);
+  color: white;
   animation: shake 0.5s ease;
 }
 
 .error-icon {
   font-size: 2rem;
+
 }
 
 @keyframes shake {
