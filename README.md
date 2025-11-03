@@ -1,6 +1,6 @@
 # 🌍 NearbyMe — Angular + RxJS
 
-**NearbyMe** est une application Angular interactive permettant de **découvrir les utilisateurs vivant dans la même ville** (ou le même pays) à partir de l’API publique [randomuser.me](https://randomuser.me/).  
+**NearbyMe** est une application Angular interactive permettant de **découvrir les utilisateurs vivant dans la même pays**  à partir de l’API publique [randomuser.me](https://randomuser.me/).  
 L’objectif est de **manipuler les Observables RxJS** pour filtrer, combiner et transformer les données en temps réel, tout en affichant les utilisateurs proches selon leur **distance géographique calculée via la formule de Haversine**.
 
 ---
